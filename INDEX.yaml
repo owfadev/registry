@@ -8,4 +8,4 @@ packages:
   bili:   {repo: https://github.com/AIE3905-Wuwa/pkg-bili,   version: 0.2, compat: ">= 0.2", trust: framework-bundled, members: bili, summary: bilibili content domain — bili-cli}
   project:{repo: https://github.com/AIE3905-Wuwa/pkg-project, version: 0.2, compat: ">= 0.2", trust: framework-bundled, members: project, summary: project container domain}
   github: {repo: https://github.com/AIE3905-Wuwa/pkg-github, version: 0.2, compat: ">= 0.3", trust: framework-bundled, members: github, summary: GitHub state cache domain with system gh connector and offline reads}
-  diary:  {repo: https://github.com/AIE3905-Wuwa/pkg-diary,  version: 0.2, compat: ">= 0.2", trust: framework-bundled, members: diary, summary: personal diary zone — vault-backed daily entries, agent-managed (verbatim default; delegated compose/polish/edit; optional package)}
+  diary:  {repo: https://github.com/AIE3905-Wuwa/pkg-diary,  version: 0.3, compat: ">= 0.2", trust: framework-bundled, members: diary, summary: personal diary zone — vault-backed daily entries, wiki-mapped corpus (human writing; privacy at use; optional package)}
