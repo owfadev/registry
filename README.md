@@ -1,6 +1,6 @@
 # vault-wiki package registry
 
-The official package index of the [vault-wiki](https://github.com/AIE3905-Wuwa/vault-wiki) framework — the Obsidian-model registry: packages self-host in their own repos; a one-line PR here is the listing (and trust) gate.
+The official package index of the [vault-wiki](https://github.com/owfadev/owfa) framework — the Obsidian-model registry: packages self-host in their own repos; a one-line PR here is the listing (and trust) gate.
 
 - **Agents / users**: `kernel list-remote` reads [INDEX.yaml](INDEX.yaml); `kernel install <pkg>` resolves against it
 - **Authors**: see [how to register](#registering-a-package) below; until listed, your package is still installable directly (`kernel install <owner/repo> --yes`, trust: unknown)
@@ -9,11 +9,11 @@ The official package index of the [vault-wiki](https://github.com/AIE3905-Wuwa/v
 
 | Package | Version | Compat | Contents | Trust | Summary |
 |---|---|---|---|---|---|
-| [cuhksz](https://github.com/AIE3905-Wuwa/pkg-cuhksz) | 0.2 | ≥ 0.2 | cuhksz · bb · bb-map · bb-track · bb-teach · bb-quiz · sis · registry | framework-bundled | CUHK-SZ school domain — bb course ops · sis records · registry |
-| [lark](https://github.com/AIE3905-Wuwa/pkg-lark) | 0.2 | ≥ 0.2 | lark · lark-docs · lark-im · lark-calendar | framework-bundled | Feishu/Lark domain — docs · im · calendar |
-| [email](https://github.com/AIE3905-Wuwa/pkg-email) | 0.2 | ≥ 0.2 | email | framework-bundled | personal mailbox domain — mail-cli |
-| [bili](https://github.com/AIE3905-Wuwa/pkg-bili) | 0.2 | ≥ 0.2 | bili | framework-bundled | bilibili content domain — bili-cli |
-| [project](https://github.com/AIE3905-Wuwa/pkg-project) | 0.2 | ≥ 0.2 | project | framework-bundled | project container domain |
+| [cuhksz](https://github.com/owfadev/pkg-cuhksz) | 0.2 | ≥ 0.2 | cuhksz · bb · bb-map · bb-track · bb-teach · bb-quiz · sis · registry | framework-bundled | CUHK-SZ school domain — bb course ops · sis records · registry |
+| [lark](https://github.com/owfadev/pkg-lark) | 0.2 | ≥ 0.2 | lark · lark-docs · lark-im · lark-calendar | framework-bundled | Feishu/Lark domain — docs · im · calendar |
+| [email](https://github.com/owfadev/pkg-email) | 0.2 | ≥ 0.2 | email | framework-bundled | personal mailbox domain — mail-cli |
+| [bili](https://github.com/owfadev/pkg-bili) | 0.2 | ≥ 0.2 | bili | framework-bundled | bilibili content domain — bili-cli |
+| [project](https://github.com/owfadev/pkg-project) | 0.2 | ≥ 0.2 | project | framework-bundled | project container domain |
 
 ## Registering a package
 
